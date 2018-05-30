@@ -1,0 +1,1368 @@
+@charset "UTF-8";
+/* @FONT-FACE loads font into browser */
+@font-face {
+  font-family: 'typicons';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/typicons.eot");
+  src: url("../fonts/typicons.eot?#iefix") format("embedded-opentype"), url("../fonts/typicons.woff") format("woff"), url("../fonts/typicons.ttf") format("truetype"), url("../fonts/typicons.svg#typicons") format("svg"); }
+/* :before psuedo-selector inserts and styles icon */
+.typcn:before {
+  font-family: 'typicons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  height: 1em;
+  font-size: 1em;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+/* Code for individual icons */
+.typcn-adjust-brightness:before {
+  content: '\e000';
+  /* 'юАА' */ }
+
+.typcn-adjust-contrast:before {
+  content: '\e001';
+  /* 'юАБ' */ }
+
+.typcn-anchor-outline:before {
+  content: '\e002';
+  /* 'юАВ' */ }
+
+.typcn-anchor:before {
+  content: '\e003';
+  /* 'юАГ' */ }
+
+.typcn-archive:before {
+  content: '\e004';
+  /* 'юАД' */ }
+
+.typcn-arrow-back-outline:before {
+  content: '\e005';
+  /* 'юАЕ' */ }
+
+.typcn-arrow-back:before {
+  content: '\e006';
+  /* 'юАЖ' */ }
+
+.typcn-arrow-down-outline:before {
+  content: '\e007';
+  /* 'юАЗ' */ }
+
+.typcn-arrow-down-thick:before {
+  content: '\e008';
+  /* 'юАИ' */ }
+
+.typcn-arrow-down:before {
+  content: '\e009';
+  /* 'юАЙ' */ }
+
+.typcn-arrow-forward-outline:before {
+  content: '\e00a';
+  /* 'юАК' */ }
+
+.typcn-arrow-forward:before {
+  content: '\e00b';
+  /* 'юАЛ' */ }
+
+.typcn-arrow-left-outline:before {
+  content: '\e00c';
+  /* 'юАМ' */ }
+
+.typcn-arrow-left-thick:before {
+  content: '\e00d';
+  /* 'юАН' */ }
+
+.typcn-arrow-left:before {
+  content: '\e00e';
+  /* 'юАО' */ }
+
+.typcn-arrow-loop-outline:before {
+  content: '\e00f';
+  /* 'юАП' */ }
+
+.typcn-arrow-loop:before {
+  content: '\e010';
+  /* 'юАР' */ }
+
+.typcn-arrow-maximise-outline:before {
+  content: '\e011';
+  /* 'юАС' */ }
+
+.typcn-arrow-maximise:before {
+  content: '\e012';
+  /* 'юАТ' */ }
+
+.typcn-arrow-minimise-outline:before {
+  content: '\e013';
+  /* 'юАУ' */ }
+
+.typcn-arrow-minimise:before {
+  content: '\e014';
+  /* 'юАФ' */ }
+
+.typcn-arrow-move-outline:before {
+  content: '\e015';
+  /* 'юАХ' */ }
+
+.typcn-arrow-move:before {
+  content: '\e016';
+  /* 'юАЦ' */ }
+
+.typcn-arrow-repeat-outline:before {
+  content: '\e017';
+  /* 'юАЧ' */ }
+
+.typcn-arrow-repeat:before {
+  content: '\e018';
+  /* 'юАШ' */ }
+
+.typcn-arrow-right-outline:before {
+  content: '\e019';
+  /* 'юАЩ' */ }
+
+.typcn-arrow-right-thick:before {
+  content: '\e01a';
+  /* 'юАЪ' */ }
+
+.typcn-arrow-right:before {
+  content: '\e01b';
+  /* 'юАЫ' */ }
+
+.typcn-arrow-shuffle:before {
+  content: '\e01c';
+  /* 'юАЬ' */ }
+
+.typcn-arrow-sorted-down:before {
+  content: '\e01d';
+  /* 'юАЭ' */ }
+
+.typcn-arrow-sorted-up:before {
+  content: '\e01e';
+  /* 'юАЮ' */ }
+
+.typcn-arrow-sync-outline:before {
+  content: '\e01f';
+  /* 'юАЯ' */ }
+
+.typcn-arrow-sync:before {
+  content: '\e020';
+  /* 'юАа' */ }
+
+.typcn-arrow-unsorted:before {
+  content: '\e021';
+  /* 'юАб' */ }
+
+.typcn-arrow-up-outline:before {
+  content: '\e022';
+  /* 'юАв' */ }
+
+.typcn-arrow-up-thick:before {
+  content: '\e023';
+  /* 'юАг' */ }
+
+.typcn-arrow-up:before {
+  content: '\e024';
+  /* 'юАд' */ }
+
+.typcn-at:before {
+  content: '\e025';
+  /* 'юАе' */ }
+
+.typcn-attachment-outline:before {
+  content: '\e026';
+  /* 'юАж' */ }
+
+.typcn-attachment:before {
+  content: '\e027';
+  /* 'юАз' */ }
+
+.typcn-backspace-outline:before {
+  content: '\e028';
+  /* 'юАи' */ }
+
+.typcn-backspace:before {
+  content: '\e029';
+  /* 'юАй' */ }
+
+.typcn-battery-charge:before {
+  content: '\e02a';
+  /* 'юАк' */ }
+
+.typcn-battery-full:before {
+  content: '\e02b';
+  /* 'юАл' */ }
+
+.typcn-battery-high:before {
+  content: '\e02c';
+  /* 'юАм' */ }
+
+.typcn-battery-low:before {
+  content: '\e02d';
+  /* 'юАн' */ }
+
+.typcn-battery-mid:before {
+  content: '\e02e';
+  /* 'юАо' */ }
+
+.typcn-beaker:before {
+  content: '\e02f';
+  /* 'юАп' */ }
+
+.typcn-beer:before {
+  content: '\e030';
+  /* 'юА░' */ }
+
+.typcn-bell:before {
+  content: '\e031';
+  /* 'юА▒' */ }
+
+.typcn-book:before {
+  content: '\e032';
+  /* 'юА▓' */ }
+
+.typcn-bookmark:before {
+  content: '\e033';
+  /* 'юА│' */ }
+
+.typcn-briefcase:before {
+  content: '\e034';
+  /* 'юА┤' */ }
+
+.typcn-brush:before {
+  content: '\e035';
+  /* 'юА╡' */ }
+
+.typcn-business-card:before {
+  content: '\e036';
+  /* 'юА╢' */ }
+
+.typcn-calculator:before {
+  content: '\e037';
+  /* 'юА╖' */ }
+
+.typcn-calendar-outline:before {
+  content: '\e038';
+  /* 'юА╕' */ }
+
+.typcn-calendar:before {
+  content: '\e039';
+  /* 'юА╣' */ }
+
+.typcn-camera-outline:before {
+  content: '\e03a';
+  /* 'юА║' */ }
+
+.typcn-camera:before {
+  content: '\e03b';
+  /* 'юА╗' */ }
+
+.typcn-cancel-outline:before {
+  content: '\e03c';
+  /* 'юА╝' */ }
+
+.typcn-cancel:before {
+  content: '\e03d';
+  /* 'юА╜' */ }
+
+.typcn-chart-area-outline:before {
+  content: '\e03e';
+  /* 'юА╛' */ }
+
+.typcn-chart-area:before {
+  content: '\e03f';
+  /* 'юА┐' */ }
+
+.typcn-chart-bar-outline:before {
+  content: '\e040';
+  /* 'юБА' */ }
+
+.typcn-chart-bar:before {
+  content: '\e041';
+  /* 'юББ' */ }
+
+.typcn-chart-line-outline:before {
+  content: '\e042';
+  /* 'юБВ' */ }
+
+.typcn-chart-line:before {
+  content: '\e043';
+  /* 'юБГ' */ }
+
+.typcn-chart-pie-outline:before {
+  content: '\e044';
+  /* 'юБД' */ }
+
+.typcn-chart-pie:before {
+  content: '\e045';
+  /* 'юБЕ' */ }
+
+.typcn-chevron-left-outline:before {
+  content: '\e046';
+  /* 'юБЖ' */ }
+
+.typcn-chevron-left:before {
+  content: '\e047';
+  /* 'юБЗ' */ }
+
+.typcn-chevron-right-outline:before {
+  content: '\e048';
+  /* 'юБИ' */ }
+
+.typcn-chevron-right:before {
+  content: '\e049';
+  /* 'юБЙ' */ }
+
+.typcn-clipboard:before {
+  content: '\e04a';
+  /* 'юБК' */ }
+
+.typcn-cloud-storage:before {
+  content: '\e04b';
+  /* 'юБЛ' */ }
+
+.typcn-cloud-storage-outline:before {
+  content: '\e054';
+  /* 'юБФ' */ }
+
+.typcn-code-outline:before {
+  content: '\e04c';
+  /* 'юБМ' */ }
+
+.typcn-code:before {
+  content: '\e04d';
+  /* 'юБН' */ }
+
+.typcn-coffee:before {
+  content: '\e04e';
+  /* 'юБО' */ }
+
+.typcn-cog-outline:before {
+  content: '\e04f';
+  /* 'юБП' */ }
+
+.typcn-cog:before {
+  content: '\e050';
+  /* 'юБР' */ }
+
+.typcn-compass:before {
+  content: '\e051';
+  /* 'юБС' */ }
+
+.typcn-contacts:before {
+  content: '\e052';
+  /* 'юБТ' */ }
+
+.typcn-credit-card:before {
+  content: '\e053';
+  /* 'юБУ' */ }
+
+.typcn-css3:before {
+  content: '\e055';
+  /* 'юБХ' */ }
+
+.typcn-database:before {
+  content: '\e056';
+  /* 'юБЦ' */ }
+
+.typcn-delete-outline:before {
+  content: '\e057';
+  /* 'юБЧ' */ }
+
+.typcn-delete:before {
+  content: '\e058';
+  /* 'юБШ' */ }
+
+.typcn-device-desktop:before {
+  content: '\e059';
+  /* 'юБЩ' */ }
+
+.typcn-device-laptop:before {
+  content: '\e05a';
+  /* 'юБЪ' */ }
+
+.typcn-device-phone:before {
+  content: '\e05b';
+  /* 'юБЫ' */ }
+
+.typcn-device-tablet:before {
+  content: '\e05c';
+  /* 'юБЬ' */ }
+
+.typcn-directions:before {
+  content: '\e05d';
+  /* 'юБЭ' */ }
+
+.typcn-divide-outline:before {
+  content: '\e05e';
+  /* 'юБЮ' */ }
+
+.typcn-divide:before {
+  content: '\e05f';
+  /* 'юБЯ' */ }
+
+.typcn-document-add:before {
+  content: '\e060';
+  /* 'юБа' */ }
+
+.typcn-document-delete:before {
+  content: '\e061';
+  /* 'юБб' */ }
+
+.typcn-document-text:before {
+  content: '\e062';
+  /* 'юБв' */ }
+
+.typcn-document:before {
+  content: '\e063';
+  /* 'юБг' */ }
+
+.typcn-download-outline:before {
+  content: '\e064';
+  /* 'юБд' */ }
+
+.typcn-download:before {
+  content: '\e065';
+  /* 'юБе' */ }
+
+.typcn-dropbox:before {
+  content: '\e066';
+  /* 'юБж' */ }
+
+.typcn-edit:before {
+  content: '\e067';
+  /* 'юБз' */ }
+
+.typcn-eject-outline:before {
+  content: '\e068';
+  /* 'юБи' */ }
+
+.typcn-eject:before {
+  content: '\e069';
+  /* 'юБй' */ }
+
+.typcn-equals-outline:before {
+  content: '\e06a';
+  /* 'юБк' */ }
+
+.typcn-equals:before {
+  content: '\e06b';
+  /* 'юБл' */ }
+
+.typcn-export-outline:before {
+  content: '\e06c';
+  /* 'юБм' */ }
+
+.typcn-export:before {
+  content: '\e06d';
+  /* 'юБн' */ }
+
+.typcn-eye-outline:before {
+  content: '\e06e';
+  /* 'юБо' */ }
+
+.typcn-eye:before {
+  content: '\e06f';
+  /* 'юБп' */ }
+
+.typcn-feather:before {
+  content: '\e070';
+  /* 'юБ░' */ }
+
+.typcn-film:before {
+  content: '\e071';
+  /* 'юБ▒' */ }
+
+.typcn-filter:before {
+  content: '\e072';
+  /* 'юБ▓' */ }
+
+.typcn-flag-outline:before {
+  content: '\e073';
+  /* 'юБ│' */ }
+
+.typcn-flag:before {
+  content: '\e074';
+  /* 'юБ┤' */ }
+
+.typcn-flash-outline:before {
+  content: '\e075';
+  /* 'юБ╡' */ }
+
+.typcn-flash:before {
+  content: '\e076';
+  /* 'юБ╢' */ }
+
+.typcn-flow-children:before {
+  content: '\e077';
+  /* 'юБ╖' */ }
+
+.typcn-flow-merge:before {
+  content: '\e078';
+  /* 'юБ╕' */ }
+
+.typcn-flow-parallel:before {
+  content: '\e079';
+  /* 'юБ╣' */ }
+
+.typcn-flow-switch:before {
+  content: '\e07a';
+  /* 'юБ║' */ }
+
+.typcn-folder-add:before {
+  content: '\e07b';
+  /* 'юБ╗' */ }
+
+.typcn-folder-delete:before {
+  content: '\e07c';
+  /* 'юБ╝' */ }
+
+.typcn-folder-open:before {
+  content: '\e07d';
+  /* 'юБ╜' */ }
+
+.typcn-folder:before {
+  content: '\e07e';
+  /* 'юБ╛' */ }
+
+.typcn-gift:before {
+  content: '\e07f';
+  /* 'юБ┐' */ }
+
+.typcn-globe-outline:before {
+  content: '\e080';
+  /* 'юВА' */ }
+
+.typcn-globe:before {
+  content: '\e081';
+  /* 'юВБ' */ }
+
+.typcn-group-outline:before {
+  content: '\e082';
+  /* 'юВВ' */ }
+
+.typcn-group:before {
+  content: '\e083';
+  /* 'юВГ' */ }
+
+.typcn-headphones:before {
+  content: '\e084';
+  /* 'юВД' */ }
+
+.typcn-heart-full-outline:before {
+  content: '\e085';
+  /* 'юВЕ' */ }
+
+.typcn-heart-half-outline:before {
+  content: '\e086';
+  /* 'юВЖ' */ }
+
+.typcn-heart-outline:before {
+  content: '\e087';
+  /* 'юВЗ' */ }
+
+.typcn-heart:before {
+  content: '\e088';
+  /* 'юВИ' */ }
+
+.typcn-home-outline:before {
+  content: '\e089';
+  /* 'юВЙ' */ }
+
+.typcn-home:before {
+  content: '\e08a';
+  /* 'юВК' */ }
+
+.typcn-html5:before {
+  content: '\e08b';
+  /* 'юВЛ' */ }
+
+.typcn-image-outline:before {
+  content: '\e08c';
+  /* 'юВМ' */ }
+
+.typcn-image:before {
+  content: '\e08d';
+  /* 'юВН' */ }
+
+.typcn-infinity-outline:before {
+  content: '\e08e';
+  /* 'юВО' */ }
+
+.typcn-infinity:before {
+  content: '\e08f';
+  /* 'юВП' */ }
+
+.typcn-info-large-outline:before {
+  content: '\e090';
+  /* 'юВР' */ }
+
+.typcn-info-large:before {
+  content: '\e091';
+  /* 'юВС' */ }
+
+.typcn-info-outline:before {
+  content: '\e092';
+  /* 'юВТ' */ }
+
+.typcn-info:before {
+  content: '\e093';
+  /* 'юВУ' */ }
+
+.typcn-input-checked-outline:before {
+  content: '\e094';
+  /* 'юВФ' */ }
+
+.typcn-input-checked:before {
+  content: '\e095';
+  /* 'юВХ' */ }
+
+.typcn-key-outline:before {
+  content: '\e096';
+  /* 'юВЦ' */ }
+
+.typcn-key:before {
+  content: '\e097';
+  /* 'юВЧ' */ }
+
+.typcn-keyboard:before {
+  content: '\e098';
+  /* 'юВШ' */ }
+
+.typcn-leaf:before {
+  content: '\e099';
+  /* 'юВЩ' */ }
+
+.typcn-lightbulb:before {
+  content: '\e09a';
+  /* 'юВЪ' */ }
+
+.typcn-link-outline:before {
+  content: '\e09b';
+  /* 'юВЫ' */ }
+
+.typcn-link:before {
+  content: '\e09c';
+  /* 'юВЬ' */ }
+
+.typcn-location-arrow-outline:before {
+  content: '\e09d';
+  /* 'юВЭ' */ }
+
+.typcn-location-arrow:before {
+  content: '\e09e';
+  /* 'юВЮ' */ }
+
+.typcn-location-outline:before {
+  content: '\e09f';
+  /* 'юВЯ' */ }
+
+.typcn-location:before {
+  content: '\e0a0';
+  /* 'юВа' */ }
+
+.typcn-lock-closed-outline:before {
+  content: '\e0a1';
+  /* 'юВб' */ }
+
+.typcn-lock-closed:before {
+  content: '\e0a2';
+  /* 'юВв' */ }
+
+.typcn-lock-open-outline:before {
+  content: '\e0a3';
+  /* 'юВг' */ }
+
+.typcn-lock-open:before {
+  content: '\e0a4';
+  /* 'юВд' */ }
+
+.typcn-mail:before {
+  content: '\e0a5';
+  /* 'юВе' */ }
+
+.typcn-map:before {
+  content: '\e0a6';
+  /* 'юВж' */ }
+
+.typcn-media-eject-outline:before {
+  content: '\e0a7';
+  /* 'юВз' */ }
+
+.typcn-media-eject:before {
+  content: '\e0a8';
+  /* 'юВи' */ }
+
+.typcn-media-fast-forward-outline:before {
+  content: '\e0a9';
+  /* 'юВй' */ }
+
+.typcn-media-fast-forward:before {
+  content: '\e0aa';
+  /* 'юВк' */ }
+
+.typcn-media-pause-outline:before {
+  content: '\e0ab';
+  /* 'юВл' */ }
+
+.typcn-media-pause:before {
+  content: '\e0ac';
+  /* 'юВм' */ }
+
+.typcn-media-play-outline:before {
+  content: '\e0ad';
+  /* 'юВн' */ }
+
+.typcn-media-play-reverse-outline:before {
+  content: '\e0ae';
+  /* 'юВо' */ }
+
+.typcn-media-play-reverse:before {
+  content: '\e0af';
+  /* 'юВп' */ }
+
+.typcn-media-play:before {
+  content: '\e0b0';
+  /* 'юВ░' */ }
+
+.typcn-media-record-outline:before {
+  content: '\e0b1';
+  /* 'юВ▒' */ }
+
+.typcn-media-record:before {
+  content: '\e0b2';
+  /* 'юВ▓' */ }
+
+.typcn-media-rewind-outline:before {
+  content: '\e0b3';
+  /* 'юВ│' */ }
+
+.typcn-media-rewind:before {
+  content: '\e0b4';
+  /* 'юВ┤' */ }
+
+.typcn-media-stop-outline:before {
+  content: '\e0b5';
+  /* 'юВ╡' */ }
+
+.typcn-media-stop:before {
+  content: '\e0b6';
+  /* 'юВ╢' */ }
+
+.typcn-message-typing:before {
+  content: '\e0b7';
+  /* 'юВ╖' */ }
+
+.typcn-message:before {
+  content: '\e0b8';
+  /* 'юВ╕' */ }
+
+.typcn-messages:before {
+  content: '\e0b9';
+  /* 'юВ╣' */ }
+
+.typcn-microphone-outline:before {
+  content: '\e0ba';
+  /* 'юВ║' */ }
+
+.typcn-microphone:before {
+  content: '\e0bb';
+  /* 'юВ╗' */ }
+
+.typcn-minus-outline:before {
+  content: '\e0bc';
+  /* 'юВ╝' */ }
+
+.typcn-minus:before {
+  content: '\e0bd';
+  /* 'юВ╜' */ }
+
+.typcn-mortar-board:before {
+  content: '\e0be';
+  /* 'юВ╛' */ }
+
+.typcn-news:before {
+  content: '\e0bf';
+  /* 'юВ┐' */ }
+
+.typcn-notes-outline:before {
+  content: '\e0c0';
+  /* 'юГА' */ }
+
+.typcn-notes:before {
+  content: '\e0c1';
+  /* 'юГБ' */ }
+
+.typcn-pen:before {
+  content: '\e0c2';
+  /* 'юГВ' */ }
+
+.typcn-pencil:before {
+  content: '\e0c3';
+  /* 'юГГ' */ }
+
+.typcn-phone-outline:before {
+  content: '\e0c4';
+  /* 'юГД' */ }
+
+.typcn-phone:before {
+  content: '\e0c5';
+  /* 'юГЕ' */ }
+
+.typcn-pi-outline:before {
+  content: '\e0c6';
+  /* 'юГЖ' */ }
+
+.typcn-pi:before {
+  content: '\e0c7';
+  /* 'юГЗ' */ }
+
+.typcn-pin-outline:before {
+  content: '\e0c8';
+  /* 'юГИ' */ }
+
+.typcn-pin:before {
+  content: '\e0c9';
+  /* 'юГЙ' */ }
+
+.typcn-pipette:before {
+  content: '\e0ca';
+  /* 'юГК' */ }
+
+.typcn-plane-outline:before {
+  content: '\e0cb';
+  /* 'юГЛ' */ }
+
+.typcn-plane:before {
+  content: '\e0cc';
+  /* 'юГМ' */ }
+
+.typcn-plug:before {
+  content: '\e0cd';
+  /* 'юГН' */ }
+
+.typcn-plus-outline:before {
+  content: '\e0ce';
+  /* 'юГО' */ }
+
+.typcn-plus:before {
+  content: '\e0cf';
+  /* 'юГП' */ }
+
+.typcn-point-of-interest-outline:before {
+  content: '\e0d0';
+  /* 'юГР' */ }
+
+.typcn-point-of-interest:before {
+  content: '\e0d1';
+  /* 'юГС' */ }
+
+.typcn-power-outline:before {
+  content: '\e0d2';
+  /* 'юГТ' */ }
+
+.typcn-power:before {
+  content: '\e0d3';
+  /* 'юГУ' */ }
+
+.typcn-printer:before {
+  content: '\e0d4';
+  /* 'юГФ' */ }
+
+.typcn-puzzle-outline:before {
+  content: '\e0d5';
+  /* 'юГХ' */ }
+
+.typcn-puzzle:before {
+  content: '\e0d6';
+  /* 'юГЦ' */ }
+
+.typcn-radar-outline:before {
+  content: '\e0d7';
+  /* 'юГЧ' */ }
+
+.typcn-radar:before {
+  content: '\e0d8';
+  /* 'юГШ' */ }
+
+.typcn-refresh-outline:before {
+  content: '\e0d9';
+  /* 'юГЩ' */ }
+
+.typcn-refresh:before {
+  content: '\e0da';
+  /* 'юГЪ' */ }
+
+.typcn-rss-outline:before {
+  content: '\e0db';
+  /* 'юГЫ' */ }
+
+.typcn-rss:before {
+  content: '\e0dc';
+  /* 'юГЬ' */ }
+
+.typcn-scissors-outline:before {
+  content: '\e0dd';
+  /* 'юГЭ' */ }
+
+.typcn-scissors:before {
+  content: '\e0de';
+  /* 'юГЮ' */ }
+
+.typcn-shopping-bag:before {
+  content: '\e0df';
+  /* 'юГЯ' */ }
+
+.typcn-shopping-cart:before {
+  content: '\e0e0';
+  /* 'юГа' */ }
+
+.typcn-social-at-circular:before {
+  content: '\e0e1';
+  /* 'юГб' */ }
+
+.typcn-social-dribbble-circular:before {
+  content: '\e0e2';
+  /* 'юГв' */ }
+
+.typcn-social-dribbble:before {
+  content: '\e0e3';
+  /* 'юГг' */ }
+
+.typcn-social-facebook-circular:before {
+  content: '\e0e4';
+  /* 'юГд' */ }
+
+.typcn-social-facebook:before {
+  content: '\e0e5';
+  /* 'юГе' */ }
+
+.typcn-social-flickr-circular:before {
+  content: '\e0e6';
+  /* 'юГж' */ }
+
+.typcn-social-flickr:before {
+  content: '\e0e7';
+  /* 'юГз' */ }
+
+.typcn-social-github-circular:before {
+  content: '\e0e8';
+  /* 'юГи' */ }
+
+.typcn-social-github:before {
+  content: '\e0e9';
+  /* 'юГй' */ }
+
+.typcn-social-google-plus-circular:before {
+  content: '\e0ea';
+  /* 'юГк' */ }
+
+.typcn-social-google-plus:before {
+  content: '\e0eb';
+  /* 'юГл' */ }
+
+.typcn-social-instagram-circular:before {
+  content: '\e0ec';
+  /* 'юГм' */ }
+
+.typcn-social-instagram:before {
+  content: '\e0ed';
+  /* 'юГн' */ }
+
+.typcn-social-last-fm-circular:before {
+  content: '\e0ee';
+  /* 'юГо' */ }
+
+.typcn-social-last-fm:before {
+  content: '\e0ef';
+  /* 'юГп' */ }
+
+.typcn-social-linkedin-circular:before {
+  content: '\e0f0';
+  /* 'юГ░' */ }
+
+.typcn-social-linkedin:before {
+  content: '\e0f1';
+  /* 'юГ▒' */ }
+
+.typcn-social-pinterest-circular:before {
+  content: '\e0f2';
+  /* 'юГ▓' */ }
+
+.typcn-social-pinterest:before {
+  content: '\e0f3';
+  /* 'юГ│' */ }
+
+.typcn-social-skype-outline:before {
+  content: '\e0f4';
+  /* 'юГ┤' */ }
+
+.typcn-social-skype:before {
+  content: '\e0f5';
+  /* 'юГ╡' */ }
+
+.typcn-social-tumbler-circular:before {
+  content: '\e0f6';
+  /* 'юГ╢' */ }
+
+.typcn-social-tumbler:before {
+  content: '\e0f7';
+  /* 'юГ╖' */ }
+
+.typcn-social-twitter-circular:before {
+  content: '\e0f8';
+  /* 'юГ╕' */ }
+
+.typcn-social-twitter:before {
+  content: '\e0f9';
+  /* 'юГ╣' */ }
+
+.typcn-social-vimeo-circular:before {
+  content: '\e0fa';
+  /* 'юГ║' */ }
+
+.typcn-social-vimeo:before {
+  content: '\e0fb';
+  /* 'юГ╗' */ }
+
+.typcn-social-youtube-circular:before {
+  content: '\e0fc';
+  /* 'юГ╝' */ }
+
+.typcn-social-youtube:before {
+  content: '\e0fd';
+  /* 'юГ╜' */ }
+
+.typcn-sort-alphabetically-outline:before {
+  content: '\e0fe';
+  /* 'юГ╛' */ }
+
+.typcn-sort-alphabetically:before {
+  content: '\e0ff';
+  /* 'юГ┐' */ }
+
+.typcn-sort-numerically-outline:before {
+  content: '\e100';
+  /* 'юДА' */ }
+
+.typcn-sort-numerically:before {
+  content: '\e101';
+  /* 'юДБ' */ }
+
+.typcn-spanner-outline:before {
+  content: '\e102';
+  /* 'юДВ' */ }
+
+.typcn-spanner:before {
+  content: '\e103';
+  /* 'юДГ' */ }
+
+.typcn-spiral:before {
+  content: '\e104';
+  /* 'юДД' */ }
+
+.typcn-star-full-outline:before {
+  content: '\e105';
+  /* 'юДЕ' */ }
+
+.typcn-star-half-outline:before {
+  content: '\e106';
+  /* 'юДЖ' */ }
+
+.typcn-star-half:before {
+  content: '\e107';
+  /* 'юДЗ' */ }
+
+.typcn-star-outline:before {
+  content: '\e108';
+  /* 'юДИ' */ }
+
+.typcn-star:before {
+  content: '\e109';
+  /* 'юДЙ' */ }
+
+.typcn-starburst-outline:before {
+  content: '\e10a';
+  /* 'юДК' */ }
+
+.typcn-starburst:before {
+  content: '\e10b';
+  /* 'юДЛ' */ }
+
+.typcn-stopwatch:before {
+  content: '\e10c';
+  /* 'юДМ' */ }
+
+.typcn-support:before {
+  content: '\e10d';
+  /* 'юДН' */ }
+
+.typcn-tabs-outline:before {
+  content: '\e10e';
+  /* 'юДО' */ }
+
+.typcn-tag:before {
+  content: '\e10f';
+  /* 'юДП' */ }
+
+.typcn-tags:before {
+  content: '\e110';
+  /* 'юДР' */ }
+
+.typcn-th-large-outline:before {
+  content: '\e111';
+  /* 'юДС' */ }
+
+.typcn-th-large:before {
+  content: '\e112';
+  /* 'юДТ' */ }
+
+.typcn-th-list-outline:before {
+  content: '\e113';
+  /* 'юДУ' */ }
+
+.typcn-th-list:before {
+  content: '\e114';
+  /* 'юДФ' */ }
+
+.typcn-th-menu-outline:before {
+  content: '\e115';
+  /* 'юДХ' */ }
+
+.typcn-th-menu:before {
+  content: '\e116';
+  /* 'юДЦ' */ }
+
+.typcn-th-small-outline:before {
+  content: '\e117';
+  /* 'юДЧ' */ }
+
+.typcn-th-small:before {
+  content: '\e118';
+  /* 'юДШ' */ }
+
+.typcn-thermometer:before {
+  content: '\e119';
+  /* 'юДЩ' */ }
+
+.typcn-thumbs-down:before {
+  content: '\e11a';
+  /* 'юДЪ' */ }
+
+.typcn-thumbs-ok:before {
+  content: '\e11b';
+  /* 'юДЫ' */ }
+
+.typcn-thumbs-up:before {
+  content: '\e11c';
+  /* 'юДЬ' */ }
+
+.typcn-tick-outline:before {
+  content: '\e11d';
+  /* 'юДЭ' */ }
+
+.typcn-tick:before {
+  content: '\e11e';
+  /* 'юДЮ' */ }
+
+.typcn-ticket:before {
+  content: '\e11f';
+  /* 'юДЯ' */ }
+
+.typcn-time:before {
+  content: '\e120';
+  /* 'юДа' */ }
+
+.typcn-times-outline:before {
+  content: '\e121';
+  /* 'юДб' */ }
+
+.typcn-times:before {
+  content: '\e122';
+  /* 'юДв' */ }
+
+.typcn-trash:before {
+  content: '\e123';
+  /* 'юДг' */ }
+
+.typcn-tree:before {
+  content: '\e124';
+  /* 'юДд' */ }
+
+.typcn-upload-outline:before {
+  content: '\e125';
+  /* 'юДе' */ }
+
+.typcn-upload:before {
+  content: '\e126';
+  /* 'юДж' */ }
+
+.typcn-user-add-outline:before {
+  content: '\e127';
+  /* 'юДз' */ }
+
+.typcn-user-add:before {
+  content: '\e128';
+  /* 'юДи' */ }
+
+.typcn-user-delete-outline:before {
+  content: '\e129';
+  /* 'юДй' */ }
+
+.typcn-user-delete:before {
+  content: '\e12a';
+  /* 'юДк' */ }
+
+.typcn-user-outline:before {
+  content: '\e12b';
+  /* 'юДл' */ }
+
+.typcn-user:before {
+  content: '\e12c';
+  /* 'юДм' */ }
+
+.typcn-vendor-android:before {
+  content: '\e12d';
+  /* 'юДн' */ }
+
+.typcn-vendor-apple:before {
+  content: '\e12e';
+  /* 'юДо' */ }
+
+.typcn-vendor-microsoft:before {
+  content: '\e12f';
+  /* 'юДп' */ }
+
+.typcn-video-outline:before {
+  content: '\e130';
+  /* 'юД░' */ }
+
+.typcn-video:before {
+  content: '\e131';
+  /* 'юД▒' */ }
+
+.typcn-volume-down:before {
+  content: '\e132';
+  /* 'юД▓' */ }
+
+.typcn-volume-mute:before {
+  content: '\e133';
+  /* 'юД│' */ }
+
+.typcn-volume-up:before {
+  content: '\e134';
+  /* 'юД┤' */ }
+
+.typcn-volume:before {
+  content: '\e135';
+  /* 'юД╡' */ }
+
+.typcn-warning-outline:before {
+  content: '\e136';
+  /* 'юД╢' */ }
+
+.typcn-warning:before {
+  content: '\e137';
+  /* 'юД╖' */ }
+
+.typcn-watch:before {
+  content: '\e138';
+  /* 'юД╕' */ }
+
+.typcn-waves-outline:before {
+  content: '\e139';
+  /* 'юД╣' */ }
+
+.typcn-waves:before {
+  content: '\e13a';
+  /* 'юД║' */ }
+
+.typcn-weather-cloudy:before {
+  content: '\e13b';
+  /* 'юД╗' */ }
+
+.typcn-weather-downpour:before {
+  content: '\e13c';
+  /* 'юД╝' */ }
+
+.typcn-weather-night:before {
+  content: '\e13d';
+  /* 'юД╜' */ }
+
+.typcn-weather-partly-sunny:before {
+  content: '\e13e';
+  /* 'юД╛' */ }
+
+.typcn-weather-shower:before {
+  content: '\e13f';
+  /* 'юД┐' */ }
+
+.typcn-weather-snow:before {
+  content: '\e140';
+  /* 'юЕА' */ }
+
+.typcn-weather-stormy:before {
+  content: '\e141';
+  /* 'юЕБ' */ }
+
+.typcn-weather-sunny:before {
+  content: '\e142';
+  /* 'юЕВ' */ }
+
+.typcn-weather-windy-cloudy:before {
+  content: '\e143';
+  /* 'юЕГ' */ }
+
+.typcn-weather-windy:before {
+  content: '\e144';
+  /* 'юЕД' */ }
+
+.typcn-wi-fi-outline:before {
+  content: '\e145';
+  /* 'юЕЕ' */ }
+
+.typcn-wi-fi:before {
+  content: '\e146';
+  /* 'юЕЖ' */ }
+
+.typcn-wine:before {
+  content: '\e147';
+  /* 'юЕЗ' */ }
+
+.typcn-world-outline:before {
+  content: '\e148';
+  /* 'юЕИ' */ }
+
+.typcn-world:before {
+  content: '\e149';
+  /* 'юЕЙ' */ }
+
+.typcn-zoom-in-outline:before {
+  content: '\e14a';
+  /* 'юЕК' */ }
+
+.typcn-zoom-in:before {
+  content: '\e14b';
+  /* 'юЕЛ' */ }
+
+.typcn-zoom-out-outline:before {
+  content: '\e14c';
+  /* 'юЕМ' */ }
+
+.typcn-zoom-out:before {
+  content: '\e14d';
+  /* 'юЕН' */ }
+
+.typcn-zoom-outline:before {
+  content: '\e14e';
+  /* 'юЕО' */ }
+
+.typcn-zoom:before {
+  content: '\e14f';
+  /* 'юЕП' */ }

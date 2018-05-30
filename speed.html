@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Responsive theme for access point">
+        <meta name="author" content="Kate Dobro">
+
+        <!-- App Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.png">
+
+        <!-- App title -->
+        <title>AP - Точка Доступа</title>
+        
+        <!--Chartist Chart CSS -->
+        <link rel="stylesheet" href="assets/plugins/chartist/dist/chartist.min.css">
+        
+        <!-- C3 charts css -->
+        <link href="assets/plugins/c3/c3.min.css" rel="stylesheet" type="text/css" />
+
+        <!--Morris Chart CSS -->
+        <link rel="stylesheet" href="assets/plugins/morris/morris.css">
+
+        <!-- Switchery css -->
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- Modernizr js -->
+        <script src="assets/js/modernizr.min.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <!-- Navigation Bar-->
+        <header id="topnav">
+            <div class="topbar-main">
+                <div class="container">
+
+                    <!-- LOGO -->
+                    <div class="topbar-left">
+                        <a href="index.html" class="logo">
+                            <i class="zmdi zmdi-group-work icon-feed"></i>
+                            <span>AP</span>
+                        </a>
+                    </div>
+                    <!-- End Logo container-->
+
+
+                    <div class="menu-extras navbar-topbar">
+
+                        <ul class="list-inline float-right mb-0">
+
+                            <li class="list-inline-item">
+                                <!-- Mobile menu toggle-->
+                                <a class="navbar-toggle">
+                                    <div class="lines">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </a>
+                                <!-- End mobile menu toggle-->
+                            </li>
+
+                            <li class="list-inline-item dropdown notification-list">
+                                <a class="nav-link waves-effect waves-light right-bar-toggle" href="javascript:void(0);">
+                                    <i class="zmdi zmdi-format-subject noti-icon"></i>
+                                </a>
+                            </li>
+
+
+                        </ul>
+
+                    </div> <!-- end menu-extras -->
+                    <div class="clearfix"></div>
+
+                </div> <!-- end container -->
+            </div>
+            <!-- end topbar-main -->
+
+
+            <div class="navbar-custom">
+                <div class="container">
+                    <div id="navigation">
+                        <!-- Navigation Menu-->
+                        <ul class="navigation-menu">
+                            <li>
+                                <a href="index.html"><i class="zmdi zmdi-chart"></i> <span> Главная </span> </a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="quick-setup.html"><i class="zmdi zmdi-flash"></i> <span> Быстрая Настройка </span> </a>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="zmdi zmdi-input-composite"></i> <span> Сеть </span> </a>
+                                <ul class="submenu">
+                                   	<li><a href="speed.html">Скорость</a></li>
+                                    <li><a href="lan.html">LAN</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="zmdi zmdi-wifi-alt"></i><span> Передача Данных </span> </a>
+                                <ul class="submenu">
+                                   	<li><a href="channels.html">Каналы</a></li>
+                                    <li><a href="basic-settings.html">Базовые Настройки</a></li>
+                                    <li><a href="wps.html">WPS</a></li>
+                                    <li><a href="wireless-sequrity.html">Безопасность соединения</a></li>
+                                    <li><a href="wireless-mac-filtering.html">MAC фильтрация</a></li>
+                                    <li><a href="wireless-advanced.html">Расширенная настройка</a></li>
+                                    <li><a href="wireless-statistics.html">Статистика связи</a></li>
+                                    <li><a href="throughput-monitor.html">Монитор пропускной способности</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="operation-mode.html"><i class="zmdi zmdi-wrench"></i> <span> Режим Работы </span> </a>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="zmdi zmdi-chart"></i><span> DHCP </span> </a>
+                                <ul class="submenu">
+                                    <li><a href="dhcp-settings.html">DHCP настройки</a></li>
+                                    <li><a href="dhcp-clients-list.html">DHCP список клиентов</a></li>
+                                    <li><a href="dhcp-address-reservation.html">DHCP резервирование</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-submenu">
+                                <a href="#"><i class="zmdi zmdi-cast-connected"></i> <span> Системные Инстументы </span> </a>
+                                <ul class="submenu megamenu">
+                                    <li>
+                                        <ul>
+                                           	<li><a href="status.html">Статус</a></li>
+                                            <li><a href="diagnostic-tools.html">Диагностика</a></li>
+                                            <li><a href="snmp-settings.html">SNMP настройки</a></li>
+                                            <li><a href="ping-watchdog-settings.html">Ping WatchDog настройки</a></li>
+                                            <li><a href="firmwaer-update.html">Обновление</a></li>
+                                            <li><a href="factory-defaults.html">Заводские установки</a></li>
+                                            <li><a href="backup-restore.html">Восстановление и сброс</a></li>
+                                            <li><a href="system-reboot.html">Перезагрузка системы</a></li>
+                                            <li><a href="password.html">Пароль</a></li>
+                                            <li><a href="system-log.html">Системный журнал</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <!-- End navigation menu  -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Navigation Bar-->
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="wrapper">
+            <div class="container">
+              
+              <!-- Page-Title -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="page-title">Скорость Соединения</h4>
+                    </div>
+                </div>
+               
+               <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <h4 class="text-dark header-title m-t-0 m-b-30">Проверка Скорости Сети</h4>
+
+                            <div class="widget-chart text-center">
+                                <input data-plugin="knob" data-width="150" data-height="150" data-linecap=round data-fgColor="#5d9cec" value="55" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".15"/>
+
+                                <p class="text-muted font-13 m-t-30">
+                                	Скорость сети, Mb
+                                </p>
+
+                                <div class="row text-center m-t-30">
+                                    <div class="col-4">
+                                        <h3 data-plugin="counterup" class="text-muted">55</h3>
+                                        <p class="text-muted">ms</p>
+                                        <p class="text-muted">Yandex</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 data-plugin="counterup" class="text-muted">31</h3>
+                                        <p class="text-muted">ms</p>
+                                        <p class="text-muted">Google</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <h3 data-plugin="counterup" class="text-muted">12</h3>
+                                        <p class="text-muted">ms</p>
+                                        <p class="text-muted">Gateway</p>
+                                    </div>
+                                </div>
+                                <div class="row text-center m-t-15 m-b-15">
+                                	<div class="col-12">
+                                		<a href="#" class="btn btn-primary">Проверить</a>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                       <div class="row">
+							<div class="col-lg-12">
+								<div class="card-box tilebox-one">
+									<i class="fa fa-wifi float-right text-muted"></i>
+									<h6 class="text-muted text-uppercase m-b-20">Router</h6>
+									<h2 class="m-b-20">192.168.12.3</h2>
+									<span class="label label-success"></span> TP-Link <span class="text-muted"></span>
+								</div>
+							</div>
+                      		<div class="col-lg-12">
+								<div class="card-box tilebox-one">
+									<i class="fa fa-podcast float-right text-muted"></i>
+									<h6 class="text-muted text-uppercase m-b-20">Rostelecom</h6>
+									<h2 class="m-b-20">Moscow</h2>
+									<span class="label label-success"></span> <span class="text-muted">Russia</span>
+								</div>
+							</div>
+                      		<div class="col-lg-12">
+								<div class="card-box tilebox-one">
+									<i class="fa fa-globe float-right text-muted"></i>
+									<h6 class="text-muted text-uppercase m-b-20">Europe / Moscow</h6>
+									<h2 class="m-b-20">178.78</h2>
+									<span class="label label-success"></span> <span class="text-muted">03.103</span>
+								</div>
+							</div>
+                       </div>
+                    </div>
+				</div>
+                
+            </div> <!-- container -->
+
+
+            <!-- Footer -->
+            <footer class="footer">
+                2018 © AP
+            </footer>
+            <!-- End Footer -->
+
+
+
+            <!-- Right Sidebar -->
+            <div class="side-bar right-bar">
+                <div class="nicescroll">
+                    <ul class="nav nav-pills nav-justified text-xs-center">
+                        <li class="nav-item">
+                            <a href="#home-2"  class="nav-link active" data-toggle="tab" aria-expanded="false">
+                                Status Help
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#system-2" class="nav-link" data-toggle="tab" aria-expanded="true">
+                                Settings
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane fade active show" id="home-2">
+                            <div class="timeline-2">
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <p><a href="" class="text-info">The Status page</a> displays the AP's current status and configuration. All information is read-only.</p>
+                                    </div>
+                                </div>
+
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <p><a href="" class="text-info">LAN -</a> The following parameters apply to the LAN port of the AP. You can configure them on the <em><b>Network -> LAN</b></em> page.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <p><a href="" class="text-info">MAC Address -</a> The physical address of the AP, as seen from the LAN</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="time-item">
+                                    <div class="item-info">
+                                        <p><a href="" class="text-info">IP Address -</a> The LAN IP address of the AP</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="system-2">
+
+                            <div class="row m-t-10">
+                                <div class="col-8">
+                                    <h5 class="m-0">Wireless</h5>
+                                    <p class="text-muted m-b-0"><small>Enable or disable wireless connection</small></p>
+                                </div>
+                                <div class="col-4 text-right">
+                                    <input type="checkbox" checked data-plugin="switchery" data-color="#1bb99a" data-size="small"/>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-10">
+                                <div class="col-8">
+                                    <h5 class="m-0">WPS</h5>
+                                    <p class="m-b-0 text-muted"><small>Enable or disable the WPS function here</small></p>
+                                </div>
+                                <div class="col-4 text-right">
+                                    <input type="checkbox" checked data-plugin="switchery" data-color="#1bb99a" data-size="small"/>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-10">
+                                <div class="col-12">
+                                    <a href="login.html" class="btn btn-danger waves-effect waves-light">Logout</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> <!-- end nicescroll -->
+            </div>
+            <!-- /Right-bar -->
+
+
+
+        </div> <!-- End wrapper -->
+
+
+
+
+        
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script><!-- Tether for Bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+
+        <!--Morris Chart-->
+        <script src="assets/plugins/morris/morris.min.js"></script>
+        <script src="assets/plugins/raphael/raphael-min.js"></script>
+
+        <!-- Counter Up  -->
+        <script src="assets/plugins/waypoints/lib/jquery.waypoints.min.js"></script>
+        <script src="assets/plugins/counterup/jquery.counterup.min.js"></script>
+        
+		<!-- Knob -->
+        <script src="assets/plugins/jquery-knob/jquery.knob.js"></script>
+        
+        <!--Chartist Chart-->
+        <script src="assets/plugins/chartist/dist/chartist.min.js"></script>
+        <script src="assets/plugins/chartist/dist/chartist-plugin-tooltip.min.js"></script>
+        
+        <!--C3 Chart-->
+        <script type="text/javascript" src="assets/plugins/d3/d3.min.js"></script>
+        <script type="text/javascript" src="assets/plugins/c3/c3.min.js"></script>
+        <script src="assets/pages/jquery.c3-chart.init.js"></script>
+        
+        <!-- App js -->
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+
+        <!-- Page specific js -->
+        <script src="assets/pages/jquery.dashboard.js"></script>
+        
+        <!-- Charts Widget init -->
+        <script src="assets/pages/jquery.chart-widgets.init.js"></script>
+        
+        <script type="text/javascript">
+			//stacked chart
+			c3.generate({
+				bindto: '#chart-stacked-cpu',
+				data: {
+					columns: [
+						['%', 10, 15, 8, 12, 13, 10],
+					],
+					types: {
+						'%': 'area-spline'
+						// 'line', 'spline', 'step', 'area', 'area-step' are also available to stack
+					},
+					colors: {
+						'%': '#a29bfe'
+					}
+				}
+			});
+		</script>
+      
+       <script type="text/javascript">
+			//Donut Chart
+			c3.generate({
+				 bindto: '#donut-chart-ap-stats',
+				data: {
+					columns: [
+						['Beacon', 95],
+						['QoS data', 1],
+						['ACK', 4]
+					],
+					type : 'donut'
+				},
+				donut: {
+					title: "Management",
+					width: 15,
+					label: { 
+						show:false
+					}
+				},
+				color: {
+					pattern: ["#a29bfe", "#ff7675", "#55efc4"]
+				}
+			});
+		</script>
+       
+        <script type="text/javascript">
+			//Donut Chart
+			c3.generate({
+				 bindto: '#donut-chart-storage',
+				data: {
+					columns: [
+						['Свободно', 66],
+						['Занято', 34]
+					],
+					type : 'donut'
+				},
+				donut: {
+					title: "Внутренняя память",
+					width: 15,
+					label: { 
+						show:false
+					}
+				},
+				color: {
+					pattern: ["#55efc4", "#ff7675"]
+				}
+			});
+		</script>
+		<script type="text/javascript">
+			//Pie Chart
+			c3.generate({
+				 bindto: '#pie-chart',
+				data: {
+					columns: [
+						['Apple', 46],
+						['OnePlus', 24],
+						['XIAOMI', 30]
+					],
+					type : 'pie'
+				},
+				color: {
+					pattern: ["#a29bfe", "#ff7675", "#55efc4"]
+				},
+				pie: {
+					label: {
+					  show: false
+					}
+				}
+			});
+		</script>
+		<script type="text/javascript">
+			//stacked chart
+			c3.generate({
+				bindto: '#chart-stacked',
+				data: {
+					columns: [
+						['WI-Fi #1', 90, 90, 0, 0, 0, 0, 0, 0, 0],
+						['WI-Fi #2', 0, 40, 40, 0, 0, 0, 0, 0, 0],
+						['WI-Fi #3', 0, 0, 0, 0, 20, 20, 20, 20, 0]
+					],
+					types: {
+						'WI-Fi #1': 'area-step',
+						'WI-Fi #2': 'area-step',
+						'WI-Fi #3': 'area-step'
+						// 'line', 'spline', 'step', 'area', 'area-step' are also available to stack
+					},
+					colors: {
+						'WI-Fi #1': '#a29bfe',
+						'WI-Fi #2': '#ff7675',
+						'WI-Fi #3': '#1AD418',
+					}
+				}
+			});
+		</script>
+		
+		<script type="text/javascript">
+			//stacked chart
+			c3.generate({
+				bindto: '#chart-stacked-load',
+				data: {
+					columns: [
+						['Скачивание', 0, 5, 10, 15, 10, 0, 0, 0, 0],
+						['Загрузка', 0, 0, 0, 0, 5, 10, 25, 0, 0]
+					],
+					types: {
+						'Скачивание': 'area-spline',
+						'Загрузка': 'area-spline'
+						// 'line', 'spline', 'step', 'area', 'area-step' are also available to stack
+					},
+					colors: {
+						'Скачивание': '#ff7675',
+						'Загрузка': '#55efc4',
+					}
+				}
+			});
+		</script>
+
+
+    </body>
+</html>
